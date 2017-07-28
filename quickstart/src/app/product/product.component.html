@@ -1,0 +1,4 @@
+<h1>Products</h1>
+<app-product-item *ngFor="let productItem of productItems" [productItem] ="productItem"></app-product-item>
+
+ <a  [routerLink]="['/add']" class="btn btn-default">Add Product</a>
